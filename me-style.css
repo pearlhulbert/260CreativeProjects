@@ -1,0 +1,208 @@
+body {
+    padding-top: 175px;
+    background-color: #F8F0E3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 45px;
+    color: #FC6F68 ;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #FC6F68;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #FC6F68;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1C2E4A;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  display: inline-block;
+  color: #FC6F68;
+}
+
+
+
+.bg-light {
+    background-color: #1C2E4A !important;
+}
+
+.navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+        font-size: 20px !important;
+        color: #FC6F68;
+}
+    
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.navbar > p {
+    font-size: 25px
+}
+
+.nav-link {
+    color: #FC6F68 !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase !important;
+
+
+}
+
+.p {
+    font-size: 18px;
+    color: #58595B;
+}
+
+.paragraph-intro {
+    margin-top: 50px;
+}
+
+.paragraph-intro > p {
+    font-size: 18px;
+    color: #58595B;
+}
+
+.grid-container {
+    display: flex;
+    margin: 10px auto;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width:100%;
+    display: block;
+    flex-basis: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.quote {
+    margin-bottom: 50px;
+}
+
+.hey-there {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+    display: inline;
+    color: #FC6F68;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0;
+}
+
+
+.name-intro {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+    display: inline;
+    color: #E17A96;
+    font-size: 25px;
+    padding: 0;
+    
+}
+
+.abt-img {
+   width: 50%;
+   float: left;
+   padding: 25px;
+}
+
+.abt-info {
+    display: inline;
+    margin-left: 100px;
+    padding-right: 25px;
+
+}
+
+.about-container {
+    margin: 25px;
+}
+
+.review-img {
+    width: 100px;
+    float: left;
+    margin: 10px 10px 0px 10px;
+}
+
+.review-container {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.review-text {
+    width: 500px;
+    margin: 10px;
+}
+
+.review {
+    border-style: dotted;
+    border-color: #E1C67A;
+}
+
+.reviewee {
+    margin-left: 15px;
+    color: #E1927A;
+}
+
+.me-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.me-item {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.me-item img {
+    width: 500px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 640px) {
+    .item {
+        display: block;
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .item {
+        display: block;
+        flex-basis: 33.333%;
+    }
+} 
+
+.picture-intro img {
+    width: 100%;
+}
