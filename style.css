@@ -11,7 +11,7 @@ h1 {
     padding-right: 25px;
     padding-left: 25px;
     margin-bottom: 45px;
-    color: #E17A96;
+    color: #FC6F68 ;
     font-size: 50px;
 }
 
@@ -42,13 +42,14 @@ footer {
 
 
 .bg-light {
-    background-color: #FC6F68 !important;
+    background-color: #1C2E4A !important;
 }
 
 .navbar li {
         margin-left : 1em;
         margin-right : 1em;
         font-size: 20px !important;
+        color: #FC6F68;
 }
     
 .navbar {
@@ -59,6 +60,10 @@ footer {
 
 .navbar > p {
     font-size: 25px
+}
+
+.nav-link {
+    color: #FC6F68 !important;
 }
 
 .p {
