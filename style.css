@@ -5,7 +5,8 @@ body {
 
 h1 {
     text-align: center;
-    font-family: "Lucida Handwriting", "Courier New", monospace;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     position: relative;
     padding-top: 25px;
     padding-right: 25px;
@@ -18,25 +19,25 @@ h1 {
 h2 {
     text-align: center;
     padding-bottom: 25px;
-    color: #58595B;
+    color: #FC6F68;
 }
 
 h4 {
-    font-family: "Lucida Handwriting", "Courier New", monospace;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
-    color: #58595B;
+    color: #FC6F68;
 }
 
 footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #E1C67A;
-  color: white;
+  background-color: #1C2E4A;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 25px;
   display: inline-block;
+  color: #FC6F68;
 }
 
 
@@ -64,6 +65,10 @@ footer {
 
 .nav-link {
     color: #FC6F68 !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase !important;
+
+
 }
 
 .p {
@@ -103,7 +108,9 @@ footer {
 .hey-there {
     font-family: "Lucida Handwriting", "Courier New", monospace;
     display: inline;
-    color: #E1927A;
+    color: #FC6F68;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     font-size: 30px;
     padding: 0;
 }
@@ -179,17 +186,3 @@ footer {
         flex-basis: 33.333%;
     }
 } 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
