@@ -186,3 +186,7 @@ footer {
         flex-basis: 33.333%;
     }
 } 
+
+.picture-intro img {
+    width: 100%;
+}
