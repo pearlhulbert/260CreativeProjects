@@ -12,12 +12,17 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
       return response.json();
     }).then(function(json) {	
       let results = "";
+      results += "<div id='word'>"
       results += "<h2> Word: " + json[0].word + "</h2>";
+      results += "</div>"
+      results += "<div id='pronunciation'>"
       results += '<h2>' + json[0].phonetics[2].text + "</h2>";
-      console.log(results);
+      results += "</div>"
+      results += "<div id='definitions'>"
       for (let i=0; i < json[0].meanings.length; i++) {
-    	results += "<p>" + json[0].meanings[i].definitions[0].definition + "</p>";
+    	results += "<p>" + (i+1) + ". " + json[0].meanings[i].definitions[0].definition + "</p>";
       }
+      results += "</div>"
           document.getElementById("weatherResults").innerHTML = results;
       });
 });
