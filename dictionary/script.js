@@ -16,7 +16,7 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
       results += "<h2> Word: " + json[0].word + "</h2>";
       results += "</div>"
       results += "<div id='pronunciation'>"
-      results += '<h2>' + json[0].phonetics[2].text + "</h2>";
+      results += '<h2>' + json[0].phonetics[json[0].phonetics.length - 1].text + "</h2>";
       results += "</div>"
       results += "<div id='definitions'>"
       for (let i=0; i < json[0].meanings.length; i++) {
