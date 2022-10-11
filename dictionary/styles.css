@@ -26,11 +26,12 @@ form {
 
 label {
     font-family: Copperplate Gothic Bold, Helvetica, sans-serif;
+    color: #654321;
 }
 
 body {
     margin: 0px;
-    background-color: #DDF5FE;
+    background-color: #FAF9F6;
 }
 
 hr {
@@ -41,7 +42,7 @@ hr {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #A7E5FC;
+  background-color: #E6E3D3;
   color: white;
 }
 
@@ -50,25 +51,25 @@ footer {
     margin: 20px;
     padding: 5px;
     font-size: 15px;
-    background-color: #A7E5FC;
-    color: #5A5A5A;
+    background-color: #E6E3D3;
+    color: #654321;
 
 }
 
 #weatherSubmit {
     margin: 10px;
-    background-color: #A7E5FC;
+    background-color: #E6E3D3;
     border-radius: 4px;
     font-family: Copperplate Gothic Bold, Helvetica, sans-serif;
     text-transform: uppercase;
     border: none;
     font-size: 15px;
     padding: 10px;
-    color: #5A5A5A;
+    color: #654321;
 }
 
 #cloudHeader {
-    background-image: url("https://i.pinimg.com/originals/7b/29/35/7b29359897e1e9cf1bf8724ad8d05f5f.jpg");
+    background-image: url("360_F_427150821_oQOZiOLP6lnWQdUmUG0YgQiTUsjmaGwE.jpg");
     background-size: cover;
     width: 100%;
 }
@@ -101,6 +102,6 @@ footer {
 #title {
     text-align: center;
     font-family: Copperplate Gothic Light, Helvetica, sans-serif;
-    color: #00A2DC;
+    color: #654321;
     font-size: 50px;
 }
