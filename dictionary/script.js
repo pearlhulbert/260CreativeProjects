@@ -12,16 +12,12 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
       return response.json();
     }).then(function(json) {	
       let results = "";
-      results += "<h2> Word: " + json.word + "</h2>";
-      results += '<h2>' + json.phonetic + "</h2>";
-      results += '<p>' + json.origin + "</p>";
+      results += "<h2> Word: " + json[0].word + "</h2>";
+      results += '<h2>' + json[0].phonetics[2].text + "</h2>";
       console.log(results);
-      /*for (let i=0; i < json.meanings.length; i++) {
-    	results += json.meanings[i].description
-    	if (i !== json.meanings.length - 1)
-    	  results += ", "
-    	  results += '<p>' + json.meanings.definitions.definition + "</p>"
-          }*/
+      for (let i=0; i < json[0].meanings.length; i++) {
+    	results += "<p>" + json[0].meanings[i].definitions[0].definition + "</p>";
+      }
           document.getElementById("weatherResults").innerHTML = results;
       });
 });
