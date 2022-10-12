@@ -13,7 +13,7 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
     }).then(function(json) {	
       let results = "";
       results += "<div id='word'>"
-      results += "<h2> Word: " + json[0].word + "</h2>";
+      results += "<h1 id='word'>" + json[0].word + "</12>";
       results += "</div>"
       results += "<div id='pronunciation'>"
       results += '<h2>' + json[0].phonetics[json[0].phonetics.length - 1].text + "</h2>";

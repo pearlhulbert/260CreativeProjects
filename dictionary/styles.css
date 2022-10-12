@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: Copperplate Gothic Bold, Helvetica, sans-serif;
     color: #5A5A5A
 }
@@ -44,6 +44,7 @@ footer {
   padding: 20px;
   background-color: #E6E3D3;
   color: white;
+  width: 100%;
 }
 
 #weatherInput {
@@ -105,3 +106,22 @@ footer {
     color: #654321;
     font-size: 50px;
 }
+
+#word {
+    text-align: center;
+    font-family: Copperplate Gothic Light, Helvetica, sans-serif;
+    color: #800000;
+    font-size: 40px;
+}
+
+#pronunciation {
+    text-align: center;
+}
+
+#definitions {
+    margin: 50px;
+    text-align: left;
+}
+
+
+
