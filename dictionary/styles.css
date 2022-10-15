@@ -44,7 +44,6 @@ footer {
   padding: 20px;
   background-color: #E6E3D3;
   color: white;
-  width: 100%;
 }
 
 #weatherInput {
@@ -70,7 +69,7 @@ footer {
 }
 
 #cloudHeader {
-    background-image: url("360_F_427150821_oQOZiOLP6lnWQdUmUG0YgQiTUsjmaGwE.jpg");
+    background-image: url("https://t3.ftcdn.net/jpg/04/27/15/08/360_F_427150821_oQOZiOLP6lnWQdUmUG0YgQiTUsjmaGwE.jpg");
     background-size: cover;
     width: 100%;
 }
@@ -119,7 +118,7 @@ footer {
 }
 
 #definitions {
-    margin: 50px;
+    margin: 25px;
     text-align: left;
 }
 
