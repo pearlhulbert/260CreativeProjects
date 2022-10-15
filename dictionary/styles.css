@@ -46,7 +46,7 @@ footer {
   color: white;
 }
 
-#weatherInput {
+#wordInput {
     font-family: Copperplate Gothic Bold, Helvetica, sans-serif;
     margin: 20px;
     padding: 5px;
@@ -56,7 +56,7 @@ footer {
 
 }
 
-#weatherSubmit {
+#wordSubmit {
     margin: 10px;
     background-color: #E6E3D3;
     border-radius: 4px;
@@ -68,7 +68,7 @@ footer {
     color: #654321;
 }
 
-#cloudHeader {
+#bookHeader {
     background-image: url("https://t3.ftcdn.net/jpg/04/27/15/08/360_F_427150821_oQOZiOLP6lnWQdUmUG0YgQiTUsjmaGwE.jpg");
     background-size: cover;
     width: 100%;
@@ -76,27 +76,6 @@ footer {
 
 #enterInfo {
     padding: 25px;
-}
-
-
-#currentConditions {
-    text-align:center;
-    padding-top: 50px;
-}
-
-#conditionPic {
-    width:15%;
-}
-
-
-#forecastDiv {
-    text-align: center;
-    padding-top: 50px;
-}
-
-#forecastSeparator {
-    border: 1px dashed;
-    width: 75%;
 }
 
 #title {

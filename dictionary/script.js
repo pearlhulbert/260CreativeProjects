@@ -1,7 +1,7 @@
 
-document.getElementById("weatherSubmit").addEventListener("click", function(event) {
+document.getElementById("wordSubmit").addEventListener("click", function(event) {
   event.preventDefault();
-  const value = document.getElementById("weatherInput").value;
+  const value = document.getElementById("wordInput").value;
   if (value === "")
     return;
   console.log(value);
@@ -23,6 +23,6 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
     	results += "<p>" + (i+1) + ". " + json[0].meanings[i].definitions[0].definition + "</p>";
       }
       results += "</div>"
-          document.getElementById("weatherResults").innerHTML = results;
+          document.getElementById("wordResults").innerHTML = results;
       });
 });
